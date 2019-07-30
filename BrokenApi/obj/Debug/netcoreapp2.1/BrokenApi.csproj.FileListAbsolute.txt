@@ -1,0 +1,14 @@
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.deps.json
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.runtimeconfig.json
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.runtimeconfig.dev.json
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.dll
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.pdb
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.csprojAssemblyReference.cache
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.csproj.CoreCompileInputs.cache
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.RazorAssemblyInfo.cache
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.RazorAssemblyInfo.cs
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.AssemblyInfoInputs.cache
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.AssemblyInfo.cs
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.RazorTargetAssemblyInfo.cache
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.dll
+D:\HttpClientSample-master\HttpClientSample-master\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.pdb
