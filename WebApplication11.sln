@@ -17,8 +17,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokenApi", "BrokenApi\Brok
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpClientfactory", "HttpClientfactory", "{42D3B32F-12C3-4F70-902B-BF7F092C6FD5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cap", "cap", "{6C711A49-737A-438E-943B-3E60143F8C22}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer4", "IdentityServer4", "{3499E01B-94A8-4879-BB33-70893BB6A8B4}"
 EndProject
 Global
