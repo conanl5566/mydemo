@@ -11922,11 +11922,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\conanl\\Source\\Repos\\Authorize_FilterAttribute\\HttpClientSample\\HttpClientSample.csproj",
+      "projectUniqueName": "E:\\github\\dotnet-core-Example\\HttpClientSample\\HttpClientSample.csproj",
       "projectName": "HttpClientSample",
-      "projectPath": "C:\\Users\\conanl\\Source\\Repos\\Authorize_FilterAttribute\\HttpClientSample\\HttpClientSample.csproj",
+      "projectPath": "E:\\github\\dotnet-core-Example\\HttpClientSample\\HttpClientSample.csproj",
       "packagesPath": "C:\\Users\\conanl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\conanl\\Source\\Repos\\Authorize_FilterAttribute\\HttpClientSample\\obj\\",
+      "outputPath": "E:\\github\\dotnet-core-Example\\HttpClientSample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

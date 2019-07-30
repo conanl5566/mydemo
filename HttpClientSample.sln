@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientSample", "HttpClientSample\HttpClientSample.csproj", "{F5EB24C8-6093-497E-8E56-25494F88527D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokenApi", "BrokenApi\BrokenApi.csproj", "{D484B277-E9CA-499C-A864-BA306D50603C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokenApi", "BrokenApi\BrokenApi.csproj", "{D484B277-E9CA-499C-A864-BA306D50603C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpClientfactory", "HttpClientfactory", "{62CBAF7D-1916-4E21-8BB8-11FFC727F571}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5EB24C8-6093-497E-8E56-25494F88527D} = {62CBAF7D-1916-4E21-8BB8-11FFC727F571}
+		{D484B277-E9CA-499C-A864-BA306D50603C} = {62CBAF7D-1916-4E21-8BB8-11FFC727F571}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E455F9E3-C415-4F52-896A-83DEDADDEB9F}

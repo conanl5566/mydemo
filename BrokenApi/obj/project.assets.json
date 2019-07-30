@@ -11807,11 +11807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\conanl\\Source\\Repos\\Authorize_FilterAttribute\\BrokenApi\\BrokenApi.csproj",
+      "projectUniqueName": "E:\\github\\dotnet-core-Example\\BrokenApi\\BrokenApi.csproj",
       "projectName": "BrokenApi",
-      "projectPath": "C:\\Users\\conanl\\Source\\Repos\\Authorize_FilterAttribute\\BrokenApi\\BrokenApi.csproj",
+      "projectPath": "E:\\github\\dotnet-core-Example\\BrokenApi\\BrokenApi.csproj",
       "packagesPath": "C:\\Users\\conanl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\conanl\\Source\\Repos\\Authorize_FilterAttribute\\BrokenApi\\obj\\",
+      "outputPath": "E:\\github\\dotnet-core-Example\\BrokenApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
