@@ -8,22 +8,32 @@ using Exceptionless.Net.Models;
 using Exceptionless.Models;
 using Microsoft.AspNetCore.Hosting;
 using log4net;
+using Microsoft.Extensions.Logging;
 
 namespace Exceptionless.Net.Controllers
 {
     public class HomeController : Controller
     {
 
-        private ILog log;
+        ////private ILog log;
 
-        public HomeController(IHostingEnvironment hostingEnv)
+        ////public HomeController(IHostingEnvironment hostingEnv)
+        ////{
+        ////    this.log = LogManager.GetLogger(Startup.repository.Name, typeof(HomeController));
+        ////}
+
+
+        private ILogger<HomeController> logger;
+        public HomeController(ILogger<HomeController> _logger)
         {
-            this.log = LogManager.GetLogger(Startup.repository.Name, typeof(HomeController));
+            logger = _logger;
         }
+        // GET api/val
+
 
         public IActionResult Index()
         {
-            log.Error("测试日志");
+            logger.LogError(new Exception("ExceptionDemo 的异常"),"qqqqqqqq");
             return View();
         }
 

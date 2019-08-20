@@ -12,6 +12,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using NLog.Extensions.Logging;
+using NLog.Web;
 
 namespace Exceptionless.Net
 {
@@ -20,9 +23,9 @@ namespace Exceptionless.Net
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            repository = LogManager.CreateRepository("NETCoreRepository");
-            // 指定配置文件
-            XmlConfigurator.Configure(repository, new FileInfo("log4net.config"));
+            //////repository = LogManager.CreateRepository("NETCoreRepository");
+            //////// 指定配置文件
+            //////XmlConfigurator.Configure(repository, new FileInfo("log4net.config"));
         }
 
         public IConfiguration Configuration { get; }
@@ -42,8 +45,13 @@ namespace Exceptionless.Net
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        //   public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+
         {
+
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -55,6 +63,13 @@ namespace Exceptionless.Net
 
             app.UseStaticFiles();
             app.UseCookiePolicy();
+
+            //使用NLog作为日志记录工具
+            loggerFactory.AddNLog();
+            //引入Nlog配置文件
+            env.ConfigureNLog("nlog.config");
+
+
 
             app.UseMvc(routes =>
             {
