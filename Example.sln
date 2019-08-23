@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.RabbitMQ.MySql", "ca
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elmah", "Elmah", "{675BB375-064A-4A01-90DD-91E80D4CD115}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication13", "WebApplication13\WebApplication13.csproj", "{7191B07B-3EC7-4B8F-881F-4ABAEE6F21B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication13", "Elmah\WebApplication13.csproj", "{7191B07B-3EC7-4B8F-881F-4ABAEE6F21B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
