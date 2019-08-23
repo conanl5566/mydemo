@@ -12,6 +12,12 @@ namespace WebApplication13
     {
         protected void Application_Start()
         {
+
+            //https://www.cnblogs.com/liquanchun/archive/2012/12/21/2827724.html
+            //https://jasonwatmore.com/post/2014/03/14/aspnet-web-api-elmahaxd-404-error-no-http-resource-was-found-that-matches-the-request-uri-http-elmah-axd
+            // ASP.NET Web API - elmah.axd 404 error - No HTTP resource was found that matches the request URI 'http://.../elmah.axd'
+
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
