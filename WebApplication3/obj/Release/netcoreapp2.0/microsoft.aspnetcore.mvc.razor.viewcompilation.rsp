@@ -1,0 +1,5 @@
+E:\github\dotnet-core-Example\WebApplication3
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=WebApplication3
+--content-root=E:\github\dotnet-core-Example\WebApplication3
+--file=

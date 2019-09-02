@@ -1,0 +1,15 @@
+E:\github\dotnet-core-Example\demo1\bin\Debug\netcoreapp2.2\demo1.deps.json
+E:\github\dotnet-core-Example\demo1\bin\Debug\netcoreapp2.2\demo1.runtimeconfig.json
+E:\github\dotnet-core-Example\demo1\bin\Debug\netcoreapp2.2\demo1.runtimeconfig.dev.json
+E:\github\dotnet-core-Example\demo1\bin\Debug\netcoreapp2.2\demo1.dll
+E:\github\dotnet-core-Example\demo1\obj\Debug\netcoreapp2.2\demo1.csproj.CoreCompileInputs.cache
+E:\github\dotnet-core-Example\demo1\obj\Debug\netcoreapp2.2\demo1.RazorAssemblyInfo.cache
+E:\github\dotnet-core-Example\demo1\obj\Debug\netcoreapp2.2\demo1.RazorAssemblyInfo.cs
+E:\github\dotnet-core-Example\demo1\obj\Debug\netcoreapp2.2\demo1.AssemblyInfoInputs.cache
+E:\github\dotnet-core-Example\demo1\obj\Debug\netcoreapp2.2\demo1.AssemblyInfo.cs
+E:\github\dotnet-core-Example\demo1\obj\Debug\netcoreapp2.2\demo1.RazorTargetAssemblyInfo.cache
+E:\github\dotnet-core-Example\demo1\obj\Debug\netcoreapp2.2\demo1.csprojAssemblyReference.cache
+E:\github\dotnet-core-Example\demo1\bin\Debug\netcoreapp2.2\demo1.pdb
+E:\github\dotnet-core-Example\demo1\obj\Debug\netcoreapp2.2\demo1.dll
+E:\github\dotnet-core-Example\demo1\obj\Debug\netcoreapp2.2\demo1.pdb
+E:\github\dotnet-core-Example\demo1\bin\Debug\netcoreapp2.2\skyapm.json

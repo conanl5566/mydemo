@@ -1,0 +1,12 @@
+E:\github\dotnet-core-Example\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.deps.json
+E:\github\dotnet-core-Example\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.runtimeconfig.json
+E:\github\dotnet-core-Example\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.runtimeconfig.dev.json
+E:\github\dotnet-core-Example\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.dll
+E:\github\dotnet-core-Example\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.csproj.CoreCompileInputs.cache
+E:\github\dotnet-core-Example\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.AssemblyInfoInputs.cache
+E:\github\dotnet-core-Example\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.AssemblyInfo.cs
+E:\github\dotnet-core-Example\WebApplication3\bin\Debug\netcoreapp2.0\WebApplication3.pdb
+E:\github\dotnet-core-Example\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.dll
+E:\github\dotnet-core-Example\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.pdb
+E:\github\dotnet-core-Example\WebApplication3\obj\Debug\netcoreapp2.0\WebApplication3.csprojAssemblyReference.cache
+E:\github\dotnet-core-Example\WebApplication3\bin\Debug\netcoreapp2.0\skyapm.json

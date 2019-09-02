@@ -1,0 +1,12 @@
+E:\github\dotnet-core-Example\WebApplication3\bin\Release\netcoreapp2.2\skyapm.json
+E:\github\dotnet-core-Example\WebApplication3\bin\Release\netcoreapp2.2\WebApplication3.deps.json
+E:\github\dotnet-core-Example\WebApplication3\bin\Release\netcoreapp2.2\WebApplication3.runtimeconfig.json
+E:\github\dotnet-core-Example\WebApplication3\bin\Release\netcoreapp2.2\WebApplication3.runtimeconfig.dev.json
+E:\github\dotnet-core-Example\WebApplication3\bin\Release\netcoreapp2.2\WebApplication3.dll
+E:\github\dotnet-core-Example\WebApplication3\bin\Release\netcoreapp2.2\WebApplication3.pdb
+E:\github\dotnet-core-Example\WebApplication3\obj\Release\netcoreapp2.2\WebApplication3.csprojAssemblyReference.cache
+E:\github\dotnet-core-Example\WebApplication3\obj\Release\netcoreapp2.2\WebApplication3.csproj.CoreCompileInputs.cache
+E:\github\dotnet-core-Example\WebApplication3\obj\Release\netcoreapp2.2\WebApplication3.AssemblyInfoInputs.cache
+E:\github\dotnet-core-Example\WebApplication3\obj\Release\netcoreapp2.2\WebApplication3.AssemblyInfo.cs
+E:\github\dotnet-core-Example\WebApplication3\obj\Release\netcoreapp2.2\WebApplication3.dll
+E:\github\dotnet-core-Example\WebApplication3\obj\Release\netcoreapp2.2\WebApplication3.pdb
