@@ -18,7 +18,6 @@ E:\github\dotnet-core-Example\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.runtim
 E:\github\dotnet-core-Example\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.dll
 E:\github\dotnet-core-Example\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.pdb
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.csprojAssemblyReference.cache
-E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.csproj.CoreCompileInputs.cache
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.RazorAssemblyInfo.cache
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.RazorAssemblyInfo.cs
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.AssemblyInfoInputs.cache
@@ -26,3 +25,6 @@ E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.Assemb
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.RazorTargetAssemblyInfo.cache
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.dll
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.pdb
+E:\github\dotnet-core-Example\BrokenApi\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\github\dotnet-core-Example\BrokenApi\bin\Debug\netcoreapp2.1\appsettings.json
+E:\github\dotnet-core-Example\BrokenApi\bin\Debug\netcoreapp2.1\Properties\launchSettings.json

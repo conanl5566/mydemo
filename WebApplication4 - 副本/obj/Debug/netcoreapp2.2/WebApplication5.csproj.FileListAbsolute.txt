@@ -5,7 +5,6 @@ E:\github\dotnet-core-Example\WebApplication4 - 副本\bin\Debug\netcoreapp2.2\W
 E:\github\dotnet-core-Example\WebApplication4 - 副本\bin\Debug\netcoreapp2.2\WebApplication5.dll
 E:\github\dotnet-core-Example\WebApplication4 - 副本\bin\Debug\netcoreapp2.2\WebApplication5.pdb
 E:\github\dotnet-core-Example\WebApplication4 - 副本\obj\Debug\netcoreapp2.2\WebApplication5.csprojAssemblyReference.cache
-E:\github\dotnet-core-Example\WebApplication4 - 副本\obj\Debug\netcoreapp2.2\WebApplication5.csproj.CoreCompileInputs.cache
 E:\github\dotnet-core-Example\WebApplication4 - 副本\obj\Debug\netcoreapp2.2\WebApplication5.RazorAssemblyInfo.cache
 E:\github\dotnet-core-Example\WebApplication4 - 副本\obj\Debug\netcoreapp2.2\WebApplication5.RazorAssemblyInfo.cs
 E:\github\dotnet-core-Example\WebApplication4 - 副本\obj\Debug\netcoreapp2.2\WebApplication5.AssemblyInfoInputs.cache
@@ -13,3 +12,6 @@ E:\github\dotnet-core-Example\WebApplication4 - 副本\obj\Debug\netcoreapp2.2\W
 E:\github\dotnet-core-Example\WebApplication4 - 副本\obj\Debug\netcoreapp2.2\WebApplication5.RazorTargetAssemblyInfo.cache
 E:\github\dotnet-core-Example\WebApplication4 - 副本\obj\Debug\netcoreapp2.2\WebApplication5.dll
 E:\github\dotnet-core-Example\WebApplication4 - 副本\obj\Debug\netcoreapp2.2\WebApplication5.pdb
+E:\github\dotnet-core-Example\WebApplication4 - 副本\bin\Debug\netcoreapp2.2\appsettings.Development.json
+E:\github\dotnet-core-Example\WebApplication4 - 副本\bin\Debug\netcoreapp2.2\appsettings.json
+E:\github\dotnet-core-Example\WebApplication4 - 副本\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
