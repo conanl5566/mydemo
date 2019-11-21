@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.7.7" />
+    <PackageReference Include="Hangfire.Autofac.Core" Version="1.0.1" />
+    <PackageReference Include="Hangfire.Core" Version="1.7.7" />
+    <PackageReference Include="Hangfire.Dashboard.BasicAuthorization" Version="1.0.2" />
+    <PackageReference Include="Hangfire.Redis.StackExchange.StrongName" Version="1.7.0" />
+    <PackageReference Include="Topshelf" Version="4.2.1" />
+  </ItemGroup>
+</Project>
