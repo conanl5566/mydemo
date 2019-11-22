@@ -1,0 +1,10 @@
+E:\github\dotnet-core-Example\WebApplication12\bin\Debug\netcoreapp3.0\appsettings.Development.json
+E:\github\dotnet-core-Example\WebApplication12\bin\Debug\netcoreapp3.0\appsettings.json
+E:\github\dotnet-core-Example\WebApplication12\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+E:\github\dotnet-core-Example\WebApplication12\bin\Debug\netcoreapp3.0\WebApplication12.exe
+E:\github\dotnet-core-Example\WebApplication12\obj\Debug\netcoreapp3.0\WebApplication12.csprojAssemblyReference.cache
+E:\github\dotnet-core-Example\WebApplication12\obj\Debug\netcoreapp3.0\staticwebassets\WebApplication12.StaticWebAssets.Manifest.cache
+E:\github\dotnet-core-Example\WebApplication12\obj\Debug\netcoreapp3.0\staticwebassets\WebApplication12.StaticWebAssets.xml
+E:\github\dotnet-core-Example\WebApplication12\obj\Debug\netcoreapp3.0\WebApplication12.AssemblyInfoInputs.cache
+E:\github\dotnet-core-Example\WebApplication12\obj\Debug\netcoreapp3.0\WebApplication12.AssemblyInfo.cs
+E:\github\dotnet-core-Example\WebApplication12\obj\Debug\netcoreapp3.0\WebApplication12.RazorTargetAssemblyInfo.cache
