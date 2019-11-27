@@ -15,3 +15,5 @@
 /hangfiretest/obj
 /hangfiretest/Properties
 /.vs
+/TestService/bin
+/TestService/obj

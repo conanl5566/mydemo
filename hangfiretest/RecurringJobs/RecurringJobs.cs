@@ -32,7 +32,7 @@ namespace hangfiretest.RecurringJobs
         {
             try
             {
-                _recurringJobs.AddOrUpdate<Itest>("seconds", i => _test.demo(), "0 0/1 * * * ? ", queue: "critical");
+                _recurringJobs.AddOrUpdate<Itest>("seconds", i => _test.demo(), "*/1 * * * * *", queue: "critical");
                 //_backgroundJobs.Enqueue<Services>(x => x.LongRunning(JobCancellationToken.Null));
                 //_recurringJobs.AddOrUpdate("seconds", () => Console.WriteLine("Hello, seconds!"), "*/15 * * * * *");
                 //_recurringJobs.AddOrUpdate("minutely", () => Console.WriteLine("Hello, world!"), Cron.Minutely);

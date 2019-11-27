@@ -74,6 +74,8 @@ namespace hangfiretest
                     .UseDashboardMetric(DashboardMetrics.ProcessingCount)
                     .UseDashboardMetric(DashboardMetrics.SucceededCount)
                     .UseDashboardMetric(DashboardMetrics.FailedCount)
+                       .UseDashboardMetric(DashboardMetrics.EnqueuedCountOrNull)
+                          .UseDashboardMetric(DashboardMetrics.FailedCountOrNull)
                     .UseDashboardMetric(DashboardMetrics.DeletedCount);
             });
         }
@@ -120,6 +122,7 @@ namespace hangfiretest
                 Queues = new[] { "critical", "test", "default" },
                 WorkerCount = Environment.ProcessorCount * int.Parse(Configuration["Hangfire:ProcessorCount"]),
                 ServerName = Configuration["Hangfire:ServerName"],
+                SchedulePollingInterval = TimeSpan.FromSeconds(1), //计划轮询间隔  支持任务到秒
             };
             app.UseHangfireServer(jobOptions);
         }

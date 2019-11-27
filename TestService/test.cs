@@ -8,7 +8,7 @@ namespace TestService
     {
         public void demo()
         {
-            Console.WriteLine(System.Guid.NewGuid());
+            Console.WriteLine(DateTime.Now);
         }
     }
 
