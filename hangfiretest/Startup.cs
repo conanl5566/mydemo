@@ -22,6 +22,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using TestService;
 
 namespace hangfiretest
 {
@@ -34,7 +35,12 @@ namespace hangfiretest
 
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            builder.RegisterType(typeof(test)).As(typeof(Itest)).InstancePerDependency().PropertiesAutowired();
+            var assemblys = System.Reflection.Assembly.Load("TestService");
+            var baseType = typeof(IDependency);
+            builder.RegisterAssemblyTypes(assemblys)
+             .Where(m => baseType.IsAssignableFrom(m) && m != baseType).PropertiesAutowired()
+             .AsImplementedInterfaces().InstancePerDependency();
+
             var controllerBaseType = typeof(ControllerBase);
             builder.RegisterAssemblyTypes(typeof(Program).Assembly)
                 .Where(t => controllerBaseType.IsAssignableFrom(t) && t != controllerBaseType)

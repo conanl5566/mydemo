@@ -1,0 +1,8 @@
+E:\github\dotnet-core-Example\ClassLibrary1\bin\Debug\netstandard2.1\ClassLibrary1.deps.json
+E:\github\dotnet-core-Example\ClassLibrary1\bin\Debug\netstandard2.1\ClassLibrary1.dll
+E:\github\dotnet-core-Example\ClassLibrary1\bin\Debug\netstandard2.1\ClassLibrary1.pdb
+E:\github\dotnet-core-Example\ClassLibrary1\obj\Debug\netstandard2.1\ClassLibrary1.csprojAssemblyReference.cache
+E:\github\dotnet-core-Example\ClassLibrary1\obj\Debug\netstandard2.1\ClassLibrary1.AssemblyInfoInputs.cache
+E:\github\dotnet-core-Example\ClassLibrary1\obj\Debug\netstandard2.1\ClassLibrary1.AssemblyInfo.cs
+E:\github\dotnet-core-Example\ClassLibrary1\obj\Debug\netstandard2.1\ClassLibrary1.dll
+E:\github\dotnet-core-Example\ClassLibrary1\obj\Debug\netstandard2.1\ClassLibrary1.pdb
