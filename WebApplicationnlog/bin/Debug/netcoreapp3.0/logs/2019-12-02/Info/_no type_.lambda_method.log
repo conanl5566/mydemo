@@ -1,0 +1,4 @@
+2019-12-02 10:23:44.7782 [INFO] <no type>.lambda_method Hello, this is the index!  @WebApplicationnlog.Controllers.HomeController.Index(E:\github\dotnet-core-Example\WebApplicationnlog\Controllers\HomeController.cs:24)
+2019-12-02 10:24:49.0600 [INFO] <no type>.lambda_method Hello, this is the index!  @WebApplicationnlog.Controllers.HomeController.Index(E:\github\dotnet-core-Example\WebApplicationnlog\Controllers\HomeController.cs:24)
+2019-12-02 10:26:17.0956 [INFO] <no type>.lambda_method Hello, this is the index!  @WebApplicationnlog.Controllers.HomeController.Index(E:\github\dotnet-core-Example\WebApplicationnlog\Controllers\HomeController.cs:24)
+2019-12-02 10:36:05.8072 [INFO] <no type>.lambda_method Hello, this is the index!  @WebApplicationnlog.Controllers.HomeController.Index(E:\github\dotnet-core-Example\WebApplicationnlog\Controllers\HomeController.cs:24)

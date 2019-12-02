@@ -1,0 +1,2 @@
+2019-12-02 10:26:17.1150 [ERROR] <no type>.lambda_method Hello, this is the index!  @WebApplicationnlog.Controllers.HomeController.Index(E:\github\dotnet-core-Example\WebApplicationnlog\Controllers\HomeController.cs:25)
+2019-12-02 10:36:05.8341 [ERROR] <no type>.lambda_method  test @WebApplicationnlog.Controllers.HomeController.Index(E:\github\dotnet-core-Example\WebApplicationnlog\Controllers\HomeController.cs:25)
