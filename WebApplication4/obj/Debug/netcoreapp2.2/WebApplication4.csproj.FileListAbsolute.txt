@@ -14,3 +14,4 @@ E:\github\dotnet-core-Example\WebApplication4\obj\Debug\netcoreapp2.2\WebApplica
 E:\github\dotnet-core-Example\WebApplication4\obj\Debug\netcoreapp2.2\WebApplication4.RazorTargetAssemblyInfo.cache
 E:\github\dotnet-core-Example\WebApplication4\obj\Debug\netcoreapp2.2\WebApplication4.dll
 E:\github\dotnet-core-Example\WebApplication4\obj\Debug\netcoreapp2.2\WebApplication4.pdb
+E:\github\dotnet-core-Example\WebApplication4\obj\Debug\netcoreapp2.2\WebApplication4.csprojAssemblyReference.cache

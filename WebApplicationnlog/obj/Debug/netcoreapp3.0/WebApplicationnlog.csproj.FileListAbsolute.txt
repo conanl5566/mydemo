@@ -41,3 +41,4 @@ E:\github\dotnet-core-Example\WebApplicationnlog\obj\Debug\netcoreapp3.0\WebAppl
 E:\github\dotnet-core-Example\WebApplicationnlog\obj\Debug\netcoreapp3.0\WebApplicationnlog.csproj.CopyComplete
 E:\github\dotnet-core-Example\WebApplicationnlog\obj\Debug\netcoreapp3.0\WebApplicationnlog.dll
 E:\github\dotnet-core-Example\WebApplicationnlog\obj\Debug\netcoreapp3.0\WebApplicationnlog.pdb
+E:\github\dotnet-core-Example\WebApplicationnlog\obj\Debug\netcoreapp3.0\WebApplicationnlog.csprojAssemblyReference.cache
