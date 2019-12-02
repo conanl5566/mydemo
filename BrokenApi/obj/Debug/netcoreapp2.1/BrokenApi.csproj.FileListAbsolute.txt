@@ -27,3 +27,4 @@ E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.Assemb
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.RazorTargetAssemblyInfo.cache
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.dll
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.pdb
+E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.csprojAssemblyReference.cache

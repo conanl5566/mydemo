@@ -70,4 +70,3 @@ E:\github\dotnet-core-Example\WebApplicationHealthCheck\obj\Debug\netcoreapp3.0\
 E:\github\dotnet-core-Example\WebApplicationHealthCheck\obj\Debug\netcoreapp3.0\WebApplicationHealthCheck.csproj.CopyComplete
 E:\github\dotnet-core-Example\WebApplicationHealthCheck\obj\Debug\netcoreapp3.0\WebApplicationHealthCheck.dll
 E:\github\dotnet-core-Example\WebApplicationHealthCheck\obj\Debug\netcoreapp3.0\WebApplicationHealthCheck.pdb
-E:\github\dotnet-core-Example\WebApplicationHealthCheck\obj\Debug\netcoreapp3.0\WebApplicationHealthCheck.csprojAssemblyReference.cache
