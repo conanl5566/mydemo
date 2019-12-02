@@ -54,6 +54,36 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationnlog", "WebAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationHealthCheck", "WebApplicationHealthCheck\WebApplicationHealthCheck.csproj", "{DC3E44A2-67FE-4431-BF26-2F78F5A3D9A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "文档", "文档", "{4D028B12-C6BF-4C2E-A904-D150B680B04B}"
+	ProjectSection(SolutionItems) = preProject
+		China2019.NET Conf\02 My.Developer.Journey.with.NET.Watermark.pdf = China2019.NET Conf\02 My.Developer.Journey.with.NET.Watermark.pdf
+		China2019.NET Conf\03 肖伟宇-用ASP.NET Core构建可检测的高可用服务-V1稿Watermark.pdf = China2019.NET Conf\03 肖伟宇-用ASP.NET Core构建可检测的高可用服务-V1稿Watermark.pdf
+		China2019.NET Conf\04 卢建晖-DotNETCore- AI Intro-V3稿Watermark.pdf = China2019.NET Conf\04 卢建晖-DotNETCore- AI Intro-V3稿Watermark.pdf
+		China2019.NET Conf\05 ASP.NET Core基于K8S的微服务电商案例实践-刘腾飞-V1稿Watermark.pdf = China2019.NET Conf\05 ASP.NET Core基于K8S的微服务电商案例实践-刘腾飞-V1稿Watermark.pdf
+		China2019.NET Conf\A 01 桂素伟-dnc在k8s上的开发实践Watermark.pdf = China2019.NET Conf\A 01 桂素伟-dnc在k8s上的开发实践Watermark.pdf
+		China2019.NET Conf\A 02 朱宗海-微服务快速开发框架的设计Watermark.pdf = China2019.NET Conf\A 02 朱宗海-微服务快速开发框架的设计Watermark.pdf
+		China2019.NET Conf\A 03 罗彬-深入浅出Application InsightsWatermark.pdf = China2019.NET Conf\A 03 罗彬-深入浅出Application InsightsWatermark.pdf
+		China2019.NET Conf\A 04 苏震巍 .Net Core + 微信赋能企业级智能客服系统 - V3.0Watermark.pdf = China2019.NET Conf\A 04 苏震巍 .Net Core + 微信赋能企业级智能客服系统 - V3.0Watermark.pdf
+		China2019.NET Conf\A 05 行云李望-传统 .net应用向微服务架构迁移的实践经验 v1.2Watermark.pdf = China2019.NET Conf\A 05 行云李望-传统 .net应用向微服务架构迁移的实践经验 v1.2Watermark.pdf
+		China2019.NET Conf\A 闪01-黄海鹏-使用.NET Core 3.0构建现代化的电子价签管理系统Watermark.pdf = China2019.NET Conf\A 闪01-黄海鹏-使用.NET Core 3.0构建现代化的电子价签管理系统Watermark.pdf
+		China2019.NET Conf\A 闪02-张潇-助力传统应用上云Watermark.pdf = China2019.NET Conf\A 闪02-张潇-助力传统应用上云Watermark.pdf
+		China2019.NET Conf\A 闪03-Anduin-编译又快又小的.NET Core最佳实践Watermark.pdf = China2019.NET Conf\A 闪03-Anduin-编译又快又小的.NET Core最佳实践Watermark.pdf
+		China2019.NET Conf\B 01 蒋金楠-当我们在谈.NET Core跨平台时我们在谈什么Watermark.pdf = China2019.NET Conf\B 01 蒋金楠-当我们在谈.NET Core跨平台时我们在谈什么Watermark.pdf
+		China2019.NET Conf\B 02 黄国石-.NET大数据实时计算Watermark.pdf = China2019.NET Conf\B 02 黄国石-.NET大数据实时计算Watermark.pdf
+		China2019.NET Conf\B 03 周国庆-.NET技术架构下的混沌工程实践V2.0Watermark.pdf = China2019.NET Conf\B 03 周国庆-.NET技术架构下的混沌工程实践V2.0Watermark.pdf
+		China2019.NET Conf\B 04 陈计节-.NET Core 微服务自动化测试最佳实践Watermark.pdf = China2019.NET Conf\B 04 陈计节-.NET Core 微服务自动化测试最佳实践Watermark.pdf
+		China2019.NET Conf\B 05 梁规晓-.NET Core下建立测试驱动的高效开发模型Watermark.pdf = China2019.NET Conf\B 05 梁规晓-.NET Core下建立测试驱动的高效开发模型Watermark.pdf
+		China2019.NET Conf\B 闪01-RPA、AI、.net core 未来-潘淳-V1稿Watermark.pdf = China2019.NET Conf\B 闪01-RPA、AI、.net core 未来-潘淳-V1稿Watermark.pdf
+		China2019.NET Conf\B 闪02-周岳-Xamarin案例剖析Watermark.pdf = China2019.NET Conf\B 闪02-周岳-Xamarin案例剖析Watermark.pdf
+		China2019.NET Conf\B 闪03-韩骏-Visual Studio Code —— .NET 开发利器Watermark.pdf = China2019.NET Conf\B 闪03-韩骏-Visual Studio Code —— .NET 开发利器Watermark.pdf
+		China2019.NET Conf\C 01 刘凡平-.NET下的深度学习应用实践Watermark.pdf = China2019.NET Conf\C 01 刘凡平-.NET下的深度学习应用实践Watermark.pdf
+		China2019.NET Conf\C 02 杨守斌-.NET Core IoTWatermark.pdf = China2019.NET Conf\C 02 杨守斌-.NET Core IoTWatermark.pdf
+		China2019.NET Conf\C 03 梁士伟-abpvnext下一代asp.netcore开源应用程序框架Watermark.pdf = China2019.NET Conf\C 03 梁士伟-abpvnext下一代asp.netcore开源应用程序框架Watermark.pdf
+		China2019.NET Conf\C 04 鲍健运-Unity_DOTS-高性能开发技术_v2Watermark.pdf = China2019.NET Conf\C 04 鲍健运-Unity_DOTS-高性能开发技术_v2Watermark.pdf
+		China2019.NET Conf\C 05 王龙飞 Neo.通过.NET探索区块链技术Watermark.pdf = China2019.NET Conf\C 05 王龙飞 Neo.通过.NET探索区块链技术Watermark.pdf
+		China2019.NET Conf\C 闪01-衣明志 - Puppeteer在.NET中的应用与避坑Watermark.pdf = China2019.NET Conf\C 闪01-衣明志 - Puppeteer在.NET中的应用与避坑Watermark.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

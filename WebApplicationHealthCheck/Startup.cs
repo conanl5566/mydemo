@@ -17,6 +17,7 @@ using Newtonsoft.Json;
 namespace WebApplicationHealthCheck
 {
     //https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks
+    //https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-2.2
     public class Startup
     {
         public Startup(IConfiguration configuration)
