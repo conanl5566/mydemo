@@ -16,6 +16,7 @@ using Newtonsoft.Json;
 
 namespace WebApplicationHealthCheck
 {
+    //https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -39,6 +40,7 @@ namespace WebApplicationHealthCheck
                      .AddWorkingSetHealthCheck(1000_000_000L)//最大工作内存不超过1GB
                      .AddDiskStorageHealthCheck(x => x.AddDrive(testDrive.Name, 1000L)) //C盘需要超过1GB自由空间
                     ;
+            services.AddHealthChecksUI();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -64,6 +66,13 @@ namespace WebApplicationHealthCheck
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            app
+         .UseRouting()
+         .UseEndpoints(config =>
+         {
+             config.MapHealthChecksUI();
+         });
             app.UseHealthChecks("/health",
                  new HealthCheckOptions
                  {
