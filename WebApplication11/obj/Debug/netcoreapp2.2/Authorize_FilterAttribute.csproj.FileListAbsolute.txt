@@ -68,7 +68,6 @@ E:\github\dotnet-core-Example\WebApplication11\bin\Debug\netcoreapp2.2\Authorize
 E:\github\dotnet-core-Example\WebApplication11\bin\Debug\netcoreapp2.2\Authorize_FilterAttribute.pdb
 E:\github\dotnet-core-Example\WebApplication11\bin\Debug\netcoreapp2.2\Authorize_FilterAttribute.Views.dll
 E:\github\dotnet-core-Example\WebApplication11\bin\Debug\netcoreapp2.2\Authorize_FilterAttribute.Views.pdb
-E:\github\dotnet-core-Example\WebApplication11\obj\Debug\netcoreapp2.2\Authorize_FilterAttribute.csprojAssemblyReference.cache
 E:\github\dotnet-core-Example\WebApplication11\obj\Debug\netcoreapp2.2\Authorize_FilterAttribute.RazorAssemblyInfo.cache
 E:\github\dotnet-core-Example\WebApplication11\obj\Debug\netcoreapp2.2\Authorize_FilterAttribute.RazorAssemblyInfo.cs
 E:\github\dotnet-core-Example\WebApplication11\obj\Debug\netcoreapp2.2\Authorize_FilterAttribute.AssemblyInfoInputs.cache

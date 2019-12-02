@@ -21,8 +21,8 @@
 /WebApplicationnlog/obj
 /WebApplicationnlog/Properties
 /HttpClientSample/bin
-obj
-Properties
-bin
-bin
-obj
+obj/
+Properties/
+bin/
+bin/
+obj/
