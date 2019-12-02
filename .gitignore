@@ -17,3 +17,6 @@
 /.vs
 /TestService/bin
 /TestService/obj
+/WebApplicationnlog/bin
+/WebApplicationnlog/obj
+/WebApplicationnlog/Properties
