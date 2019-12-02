@@ -91,3 +91,4 @@ E:\github\dotnet-core-Example\Exceptionless.Net\obj\Debug\netcoreapp2.2\Exceptio
 E:\github\dotnet-core-Example\Exceptionless.Net\obj\Debug\netcoreapp2.2\Exceptionless.Net.dll
 E:\github\dotnet-core-Example\Exceptionless.Net\obj\Debug\netcoreapp2.2\Exceptionless.Net.pdb
 E:\github\dotnet-core-Example\Exceptionless.Net\obj\Debug\netcoreapp2.2\Exceptionless.Net.csproj.CopyComplete
+E:\github\dotnet-core-Example\Exceptionless.Net\obj\Debug\netcoreapp2.2\Exceptionless.Net.csprojAssemblyReference.cache

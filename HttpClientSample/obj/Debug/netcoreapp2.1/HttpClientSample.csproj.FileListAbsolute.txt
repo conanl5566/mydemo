@@ -20,7 +20,6 @@ E:\github\dotnet-core-Example\HttpClientSample\bin\Debug\netcoreapp2.1\HttpClien
 E:\github\dotnet-core-Example\HttpClientSample\bin\Debug\netcoreapp2.1\HttpClientSample.runtimeconfig.dev.json
 E:\github\dotnet-core-Example\HttpClientSample\bin\Debug\netcoreapp2.1\HttpClientSample.dll
 E:\github\dotnet-core-Example\HttpClientSample\bin\Debug\netcoreapp2.1\HttpClientSample.pdb
-E:\github\dotnet-core-Example\HttpClientSample\obj\Debug\netcoreapp2.1\HttpClientSample.csprojAssemblyReference.cache
 E:\github\dotnet-core-Example\HttpClientSample\obj\Debug\netcoreapp2.1\HttpClientSample.RazorAssemblyInfo.cache
 E:\github\dotnet-core-Example\HttpClientSample\obj\Debug\netcoreapp2.1\HttpClientSample.RazorAssemblyInfo.cs
 E:\github\dotnet-core-Example\HttpClientSample\obj\Debug\netcoreapp2.1\HttpClientSample.AssemblyInfoInputs.cache

@@ -89,3 +89,4 @@ E:\github\dotnet-core-Example\WebApplication11\obj\Debug\netcoreapp2.2\Authorize
 E:\github\dotnet-core-Example\WebApplication11\obj\Debug\netcoreapp2.2\Authorize_FilterAttribute.dll
 E:\github\dotnet-core-Example\WebApplication11\obj\Debug\netcoreapp2.2\Authorize_FilterAttribute.pdb
 E:\github\dotnet-core-Example\WebApplication11\obj\Debug\netcoreapp2.2\Authorize_FilterAttribute.csproj.CopyComplete
+E:\github\dotnet-core-Example\WebApplication11\obj\Debug\netcoreapp2.2\Authorize_FilterAttribute.csprojAssemblyReference.cache
