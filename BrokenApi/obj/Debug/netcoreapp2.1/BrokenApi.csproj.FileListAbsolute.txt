@@ -20,7 +20,6 @@ E:\github\dotnet-core-Example\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.runtim
 E:\github\dotnet-core-Example\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.runtimeconfig.dev.json
 E:\github\dotnet-core-Example\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.dll
 E:\github\dotnet-core-Example\BrokenApi\bin\Debug\netcoreapp2.1\BrokenApi.pdb
-E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.csprojAssemblyReference.cache
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.RazorAssemblyInfo.cache
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.RazorAssemblyInfo.cs
 E:\github\dotnet-core-Example\BrokenApi\obj\Debug\netcoreapp2.1\BrokenApi.AssemblyInfoInputs.cache
