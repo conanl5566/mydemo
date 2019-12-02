@@ -5,4 +5,3 @@ E:\github\dotnet-core-Example\TestService\obj\Debug\netstandard2.1\TestService.A
 E:\github\dotnet-core-Example\TestService\obj\Debug\netstandard2.1\TestService.AssemblyInfo.cs
 E:\github\dotnet-core-Example\TestService\obj\Debug\netstandard2.1\TestService.dll
 E:\github\dotnet-core-Example\TestService\obj\Debug\netstandard2.1\TestService.pdb
-E:\github\dotnet-core-Example\TestService\obj\Debug\netstandard2.1\TestService.csprojAssemblyReference.cache
