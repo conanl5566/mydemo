@@ -115,3 +115,4 @@ E:\github\dotnet-core-Example\WebApplication15\obj\Debug\netcoreapp3.0\WebApplic
 E:\github\dotnet-core-Example\WebApplication15\obj\Debug\netcoreapp3.0\WebApplication15.csproj.CopyComplete
 E:\github\dotnet-core-Example\WebApplication15\obj\Debug\netcoreapp3.0\WebApplication15.dll
 E:\github\dotnet-core-Example\WebApplication15\obj\Debug\netcoreapp3.0\WebApplication15.pdb
+E:\github\dotnet-core-Example\WebApplication15\obj\Debug\netcoreapp3.0\WebApplication15.csprojAssemblyReference.cache
