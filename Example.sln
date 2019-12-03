@@ -92,6 +92,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{B6AF2E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conan.core", "conan.core\conan.core.csproj", "{75891CA9-B271-4E75-8F58-5DEAB9FFAC44}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "id4", "id4", "{FE3BFA4E-12F3-4E06-9E7E-A2A29FE36CE3}"
+	ProjectSection(SolutionItems) = preProject
+		hangfiretest\README.md = hangfiretest\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{058902F4-1E13-4E28-A976-0672F8031060}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
