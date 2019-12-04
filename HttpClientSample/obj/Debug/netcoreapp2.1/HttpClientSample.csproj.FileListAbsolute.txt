@@ -27,3 +27,4 @@ E:\github\dotnet-core-Example\HttpClientSample\obj\Debug\netcoreapp2.1\HttpClien
 E:\github\dotnet-core-Example\HttpClientSample\obj\Debug\netcoreapp2.1\HttpClientSample.RazorTargetAssemblyInfo.cache
 E:\github\dotnet-core-Example\HttpClientSample\obj\Debug\netcoreapp2.1\HttpClientSample.dll
 E:\github\dotnet-core-Example\HttpClientSample\obj\Debug\netcoreapp2.1\HttpClientSample.pdb
+E:\github\dotnet-core-Example\HttpClientSample\obj\Debug\netcoreapp2.1\HttpClientSample.csprojAssemblyReference.cache
