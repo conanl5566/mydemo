@@ -103,6 +103,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoJobs.Hangfire", "abpDem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationabp", "WebApplication15 - 副本\WebApplicationabp.csproj", "{B68846ED-52D4-4F61-AA5F-CE9BED5C499D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{F97870AA-7E0E-4730-8BF4-077C401DC25D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "前端", "前端", "{650E96E9-BA77-464B-B141-0FEB04859847}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
