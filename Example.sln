@@ -98,6 +98,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "id4", "id4", "{FE3BFA4E-12F
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{058902F4-1E13-4E28-A976-0672F8031060}"
+	ProjectSection(SolutionItems) = preProject
+		Exceptionless.Net\README.md = Exceptionless.Net\README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoJobs.Hangfire", "abpDemoJobs.Hangfire-master\demoJobs.Hangfire.csproj", "{E6A535A3-20E1-4E7C-A5DB-CF04AFC82A9B}"
 EndProject
