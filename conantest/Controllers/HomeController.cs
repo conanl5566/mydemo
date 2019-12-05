@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using conantest.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace conantest.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -25,6 +27,7 @@ namespace conantest.Controllers
 
         public IActionResult Privacy()
         {
+            throw new Exception("这是一个测试错误");
             return View();
         }
 
