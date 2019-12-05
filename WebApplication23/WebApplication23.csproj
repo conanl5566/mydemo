@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.WindowsServices" Version="3.1.0" />
+    <PackageReference Include="NewLife.Agent" Version="8.4.2019.1203" />
+    <PackageReference Include="NewLife.Core" Version="8.4.2019.1203" />
+  </ItemGroup>
+
+
+
+</Project>
