@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptionless.Net", "Except
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authorize", "Authorize", "{9F674A65-FDDA-43AD-BA95-3D8D0F8AC6D5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptionless", "Exceptionless", "{F8F45486-08EC-413C-BA07-89F71AE7B455}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "日志", "日志", "{F8F45486-08EC-413C-BA07-89F71AE7B455}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientSample", "HttpClientSample\HttpClientSample.csproj", "{E668D757-B7E8-47C4-8B29-8D2708BD47FB}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokenApi", "BrokenApi\Brok
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpClientfactory", "HttpClientfactory", "{42D3B32F-12C3-4F70-902B-BF7F092C6FD5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cap", "cap", "{29C6666B-3F95-456A-BF64-93F17B715434}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "分布式事务", "分布式事务", "{29C6666B-3F95-456A-BF64-93F17B715434}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "cap\WebApplication1\WebApplication1.csproj", "{A4DF3C49-684E-4841-B16D-BF1B3DAB6234}"
 EndProject
@@ -29,7 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elmah", "Elmah", "{675BB375
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication13", "Elmah\WebApplication13.csproj", "{7191B07B-3EC7-4B8F-881F-4ABAEE6F21B5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skywalking", "Skywalking", "{9FC1F21E-06BE-4BFB-A386-E8D649E9821F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "分布式追踪", "分布式追踪", "{9FC1F21E-06BE-4BFB-A386-E8D649E9821F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication4", "WebApplication4\WebApplication4.csproj", "{57288DB0-2518-4852-8F91-72289A1918EB}"
 EndProject
@@ -38,6 +38,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hangfiretest", "hangfiretest\hangfiretest.csproj", "{8C0AB162-037D-4724-B5F2-6B93D5A80722}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ABP", "ABP", "{004BFA3F-D817-44DD-8EB5-C084949033E7}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\BaiduNetdiskDownload\ABP框架学习：第一课（框架与基础组件介绍）-邓祥云.pptx = ..\..\BaiduNetdiskDownload\ABP框架学习：第一课（框架与基础组件介绍）-邓祥云.pptx
+		..\..\BaiduNetdiskDownload\ABP框架学习：第三课（应用层）-邓祥云.pptx = ..\..\BaiduNetdiskDownload\ABP框架学习：第三课（应用层）-邓祥云.pptx
+		..\..\BaiduNetdiskDownload\ABP框架学习：第二课（领域层）-邓祥云.pptx = ..\..\BaiduNetdiskDownload\ABP框架学习：第二课（领域层）-邓祥云.pptx
+		..\..\BaiduNetdiskDownload\新产品框架.pptx = ..\..\BaiduNetdiskDownload\新产品框架.pptx
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication15", "WebApplication15\WebApplication15.csproj", "{23724795-C3C7-4892-BCD8-2409FF736704}"
 EndProject
@@ -92,7 +98,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{B6AF2E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conan.core", "conan.core\conan.core.csproj", "{75891CA9-B271-4E75-8F58-5DEAB9FFAC44}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "id4", "id4", "{FE3BFA4E-12F3-4E06-9E7E-A2A29FE36CE3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "id4认证", "id4认证", "{FE3BFA4E-12F3-4E06-9E7E-A2A29FE36CE3}"
 	ProjectSection(SolutionItems) = preProject
 		hangfiretest\README.md = hangfiretest\README.md
 	EndProjectSection
@@ -109,6 +115,34 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{F97870AA-7E0E-4730-8BF4-077C401DC25D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "前端", "前端", "{650E96E9-BA77-464B-B141-0FEB04859847}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "网关", "网关", "{89E8D546-A459-49B4-8C6C-EEB22F8BDA9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "微服务", "微服务", "{1199B15A-E8B8-465E-8DCC-B81A4273563F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "规范管理", "规范管理", "{B3F924A1-71F0-4AA1-8E12-DCD4337F9463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "自动化部署", "自动化部署", "{18F9B3A0-A8C6-4C3E-B37D-E7A3CAFCDF91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "队列", "队列", "{C11ACC55-7BAB-4DF9-8F31-3DCA68FB20B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "设计模式", "设计模式", "{4B1358FB-31DD-45BB-AC45-04B0A5CDAE11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "多线程", "多线程", "{FAC568E7-37C1-4E8D-9978-9C59DA97D2B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nosql", "nosql", "{2BC923BA-4AA5-4293-A85E-723276BE3083}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "orm", "orm", "{39E03630-CB81-4707-83AA-CBC3553CFCCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据库优化", "数据库优化", "{ED172346-5654-4C15-A565-D6B82B4E01F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "分表分库", "分表分库", "{B246A27D-9DDA-4567-8ACD-420D820EC4AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "linux", "linux", "{6B11E4A3-F490-4450-80FC-C68DDFA9D319}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ddd", "ddd", "{6DDDDCB4-7773-4AD4-AD99-BF01CA63EE97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "大数据", "大数据", "{B5032E1A-0DDD-4C87-91C9-87972A728B39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

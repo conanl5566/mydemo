@@ -1,1 +1,0 @@
-asp.net core demo
