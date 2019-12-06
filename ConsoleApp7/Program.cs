@@ -1,6 +1,7 @@
 ﻿using IdentityModel.Client;
 using System;
 using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace ConsoleApp7
 {
@@ -9,30 +10,35 @@ namespace ConsoleApp7
         static async System.Threading.Tasks.Task Main(string[] args)
         {
 
-            var client = new HttpClient();
-
-            var response = await client.RequestTokenAsync(new TokenRequest
-            {
-                Address = "http://localhost:5000/connect/token",
-                GrantType = "client_credentials",
-
-                ClientId = "client",
-                ClientSecret = "secret"
-
-    //            Parameters =
-    //{
-    //    { "custom_parameter", "custom value"},
-    //    { "scope", "api1" }
-    //}
-            });
+            var response = await RequestTokenAsync();
             var r = response.AccessToken;
 
             var client2 = new HttpClient();
 
             client2.SetBearerToken(r);
-            var response2 = await client2.GetAsync("http://localhost:5001/WeatherForecast");
+            var response2 = await client2.GetStringAsync("http://localhost:5001/WeatherForecast");
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(response2);
+        }
+
+
+        static async Task<TokenResponse> RequestTokenAsync()
+        {
+            var client = new HttpClient();
+
+            var disco = await client.GetDiscoveryDocumentAsync("http://localhost:5000");
+            if (disco.IsError) throw new Exception(disco.Error);
+
+            var response = await client.RequestClientCredentialsTokenAsync(new ClientCredentialsTokenRequest
+            {
+                Address = disco.TokenEndpoint,
+
+                ClientId = "client",
+                ClientSecret = "secret"
+            });
+
+            if (response.IsError) throw new Exception(response.Error);
+            return response;
         }
     }
 }

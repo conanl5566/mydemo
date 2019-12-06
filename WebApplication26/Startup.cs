@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -25,15 +26,32 @@ namespace WebApplication26
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthentication("Bearer")
-             .AddIdentityServerAuthentication(options =>
-             {
-                 options.Authority = "http://localhost:5000";    //配置Identityserver的授权地址
-                    options.RequireHttpsMetadata = false;           //不需要https    
-                    options.ApiName = "a";                        //api的name，需要和config的名称相同
-                });
-
             services.AddControllers();
+            services.AddAuthentication("token")
+                .AddIdentityServerAuthentication("token", options =>
+                {
+                    options.Authority = "http://localhost:5000";
+                    options.RequireHttpsMetadata = false;
+
+                    options.ApiName = "a";
+                    options.ApiSecret = "secret";
+
+                    options.JwtBearerEvents = new Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents
+                    {
+                        OnTokenValidated = e =>
+                        {
+                            var jwt = e.SecurityToken as JwtSecurityToken;
+                            var type = jwt.Header.Typ;
+
+                            if (!string.Equals(type, "at+jwt", StringComparison.Ordinal))
+                            {
+                                e.Fail("JWT is not an access token");
+                            }
+
+                            return Task.CompletedTask;
+                        }
+                    };
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,9 +65,8 @@ namespace WebApplication26
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
-            app.UseAuthorization();
             app.UseAuthentication();// 添加认证中间件 
+            app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
