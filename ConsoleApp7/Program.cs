@@ -17,13 +17,13 @@ namespace ConsoleApp7
                 GrantType = "client_credentials",
 
                 ClientId = "client",
-                ClientSecret = "secret",
+                ClientSecret = "secret"
 
-                Parameters =
-    {
-        { "custom_parameter", "custom value"},
-        { "scope", "api1" }
-    }
+    //            Parameters =
+    //{
+    //    { "custom_parameter", "custom value"},
+    //    { "scope", "api1" }
+    //}
             });
             var r = response.AccessToken;
 

@@ -16,7 +16,7 @@ namespace WebApplication25
         {
             return new List<ApiResource>
             {
-                new ApiResource("api1", "My API")
+                new ApiResource("a", "WeatherForecast")
             };
         }
         //定义可以访问该API的客户端
@@ -32,7 +32,7 @@ namespace WebApplication25
                     {
                         new Secret("secret".Sha256())
                     },
-                    AllowedScopes = { "api1" }
+                    AllowedScopes = { "a" }
                 }
             };
         }

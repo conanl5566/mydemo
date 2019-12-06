@@ -30,7 +30,7 @@ namespace WebApplication26
              {
                  options.Authority = "http://localhost:5000";    //配置Identityserver的授权地址
                     options.RequireHttpsMetadata = false;           //不需要https    
-                    options.ApiName = "api1";                        //api的name，需要和config的名称相同
+                    options.ApiName = "a";                        //api的name，需要和config的名称相同
                 });
 
             services.AddControllers();
