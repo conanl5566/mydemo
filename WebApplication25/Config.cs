@@ -18,10 +18,10 @@ namespace WebApplication25
             {
                 new ApiResource("a", "WeatherForecast")
                 {
-                    ApiSecrets=
-                    {
-                        new Secret("secret".Sha256())
-                    },
+                    //ApiSecrets=
+                    //{
+                    //    new Secret("secret".Sha256())
+                    //},
                 }
             };
         }
