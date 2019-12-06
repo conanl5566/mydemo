@@ -49,7 +49,7 @@ namespace WebApplication25
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             //使用identityserver中间件
             app.UseIdentityServer();
