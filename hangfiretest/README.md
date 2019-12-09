@@ -3,6 +3,9 @@ https://www.cnblogs.com/sheng-jie/p/9430920.html
 http://localhost:5000/connect/token
 
 
+http://www.identityserver.com.cn/
+
+
 http://localhost:5001/WeatherForecast
 
 Authorization  
