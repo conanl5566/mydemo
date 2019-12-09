@@ -1,4 +1,5 @@
 ﻿using IdentityServer4.Models;
+using IdentityServer4.Test;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,21 @@ namespace WebApplication25
     /// </summary>
     public class Config
     {
+
+        public static List<TestUser> GetTestUsers()
+        {
+            return new List<TestUser>
+            {
+                new TestUser
+                {
+                    SubjectId="1",
+                    Username="lmc",
+                    Password="123456"
+                }
+            };
+        }
+
+
         //定义要保护的资源（webapi）
         public static IEnumerable<ApiResource> GetApiResources()
         {
@@ -39,7 +55,16 @@ namespace WebApplication25
                         new Secret("secret".Sha256())
                     },
                     AllowedScopes = { "a" }
+                },
+
+                  new Client()
+                {
+                    ClientId="pwdClient",
+                    AllowedGrantTypes=GrantTypes.ResourceOwnerPassword, //密码模式
+                    ClientSecrets= {new Secret("secret".Sha256()) },
+                    AllowedScopes= { "a" }
                 }
+
             };
         }
     }

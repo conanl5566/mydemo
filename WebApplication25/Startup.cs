@@ -50,8 +50,8 @@ namespace WebApplication25
                .AddDeveloperSigningCredential()
                .AddJwtBearerClientAuthentication()
                .AddInMemoryApiResources(Config.GetApiResources())  //配置资源
-               .AddInMemoryClients(Config.GetClients());        //配置客户端
-
+               .AddInMemoryClients(Config.GetClients())       //配置客户端
+               .AddTestUsers(Config.GetTestUsers());            //配置测试用户
             services.AddControllers();
         }
 
