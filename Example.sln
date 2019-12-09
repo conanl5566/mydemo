@@ -146,11 +146,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationapi", "WebApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication24winservice", "WebApplication24\WebApplication24winservice.csproj", "{71A606F8-B43A-4C18-81C5-7D5FFEE8CDDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication25", "WebApplication25\WebApplication25.csproj", "{7E8AE6BC-9EC7-48CF-BEEA-A118D2D6C8D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer4test", "WebApplication25\IdentityServer4test.csproj", "{7E8AE6BC-9EC7-48CF-BEEA-A118D2D6C8D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication26", "WebApplication26\WebApplication26.csproj", "{2022E920-BC62-4DBC-A368-9631C3C84989}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClient", "WebApplication26\ApiClient.csproj", "{2022E920-BC62-4DBC-A368-9631C3C84989}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp7", "ConsoleApp7\ConsoleApp7.csproj", "{1C5CC774-34EF-4ED3-A82F-2CA7D46D9845}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "ConsoleApp7\test.csproj", "{1C5CC774-34EF-4ED3-A82F-2CA7D46D9845}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

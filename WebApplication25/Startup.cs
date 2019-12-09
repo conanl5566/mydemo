@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IdentityServer4.Validation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -17,6 +18,22 @@ using Microsoft.Extensions.Logging;
 //https://www.cnblogs.com/jaycewu/p/7791102.html
 namespace WebApplication25
 {
+    public static class Test
+    {
+        /// <summary>
+        /// Adds support for client authentication using JWT bearer assertions.
+        /// </summary>
+        /// <param name="builder">The builder.</param>
+        /// <returns></returns>
+        public static IIdentityServerBuilder AddJwtBearerClientAuthentication(this IIdentityServerBuilder builder)
+        {
+            builder.AddSecretParser<JwtBearerClientAssertionSecretParser>();
+            builder.AddSecretValidator<PrivateKeyJwtSecretValidator>();
+
+            return builder;
+        }
+    }
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -31,6 +48,7 @@ namespace WebApplication25
         {
             services.AddIdentityServer()
                .AddDeveloperSigningCredential()
+               .AddJwtBearerClientAuthentication()
                .AddInMemoryApiResources(Config.GetApiResources())  //配置资源
                .AddInMemoryClients(Config.GetClients());        //配置客户端
 

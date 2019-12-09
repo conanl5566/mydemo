@@ -17,6 +17,12 @@ namespace WebApplication25
             return new List<ApiResource>
             {
                 new ApiResource("a", "WeatherForecast")
+                {
+                    //ApiSecrets=
+                    //{
+                    //    new Secret("secret".Sha256())
+                    //},
+                }
             };
         }
         //定义可以访问该API的客户端
