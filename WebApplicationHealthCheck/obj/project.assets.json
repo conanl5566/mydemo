@@ -6683,9 +6683,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\github\\dotnet-core-Example\\WebApplicationHealthCheck\\WebApplicationHealthCheck.csproj",
-      "projectName": "WebApplicationHealthCheck",
-      "projectPath": "E:\\github\\dotnet-core-Example\\WebApplicationHealthCheck\\WebApplicationHealthCheck.csproj",
+      "projectUniqueName": "E:\\github\\dotnet-core-Example\\WebApplicationHealthCheck\\web.HealthCheck.demo.csproj",
+      "projectName": "web.HealthCheck.demo",
+      "projectPath": "E:\\github\\dotnet-core-Example\\WebApplicationHealthCheck\\web.HealthCheck.demo.csproj",
       "packagesPath": "C:\\Users\\conanl\\.nuget\\packages\\",
       "outputPath": "E:\\github\\dotnet-core-Example\\WebApplicationHealthCheck\\obj\\",
       "projectStyle": "PackageReference",
