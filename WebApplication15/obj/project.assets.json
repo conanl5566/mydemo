@@ -7821,9 +7821,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\github\\dotnet-core-Example\\WebApplication15\\WebApplication15.csproj",
-      "projectName": "WebApplication15",
-      "projectPath": "E:\\github\\dotnet-core-Example\\WebApplication15\\WebApplication15.csproj",
+      "projectUniqueName": "E:\\github\\dotnet-core-Example\\WebApplication15\\AbpWeb.Demo.csproj",
+      "projectName": "AbpWeb.Demo",
+      "projectPath": "E:\\github\\dotnet-core-Example\\WebApplication15\\AbpWeb.Demo.csproj",
       "packagesPath": "C:\\Users\\conanl\\.nuget\\packages\\",
       "outputPath": "E:\\github\\dotnet-core-Example\\WebApplication15\\obj\\",
       "projectStyle": "PackageReference",

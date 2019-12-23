@@ -12918,9 +12918,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\github\\dotnet-core-Example\\WebApplication4\\WebApplication4.csproj",
-      "projectName": "WebApplication4",
-      "projectPath": "E:\\github\\dotnet-core-Example\\WebApplication4\\WebApplication4.csproj",
+      "projectUniqueName": "E:\\github\\dotnet-core-Example\\WebApplication4\\SkyWalkingA.csproj",
+      "projectName": "SkyWalkingA",
+      "projectPath": "E:\\github\\dotnet-core-Example\\WebApplication4\\SkyWalkingA.csproj",
       "packagesPath": "C:\\Users\\conanl\\.nuget\\packages\\",
       "outputPath": "E:\\github\\dotnet-core-Example\\WebApplication4\\obj\\",
       "projectStyle": "PackageReference",

@@ -13207,9 +13207,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\github\\dotnet-core-Example\\Exceptionless.Net\\Exceptionless.Net.csproj",
-      "projectName": "Exceptionless.Net",
-      "projectPath": "E:\\github\\dotnet-core-Example\\Exceptionless.Net\\Exceptionless.Net.csproj",
+      "projectUniqueName": "E:\\github\\dotnet-core-Example\\Exceptionless.Net\\Exceptionless.Demo2.2.csproj",
+      "projectName": "Exceptionless.Demo2.2",
+      "projectPath": "E:\\github\\dotnet-core-Example\\Exceptionless.Net\\Exceptionless.Demo2.2.csproj",
       "packagesPath": "C:\\Users\\conanl\\.nuget\\packages\\",
       "outputPath": "E:\\github\\dotnet-core-Example\\Exceptionless.Net\\obj\\",
       "projectStyle": "PackageReference",

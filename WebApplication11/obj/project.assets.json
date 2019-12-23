@@ -12085,9 +12085,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\github\\dotnet-core-Example\\WebApplication11\\Authorize_FilterAttribute.csproj",
-      "projectName": "Authorize_FilterAttribute",
-      "projectPath": "E:\\github\\dotnet-core-Example\\WebApplication11\\Authorize_FilterAttribute.csproj",
+      "projectUniqueName": "E:\\github\\dotnet-core-Example\\WebApplication11\\mvc.filter.csproj",
+      "projectName": "mvc.filter",
+      "projectPath": "E:\\github\\dotnet-core-Example\\WebApplication11\\mvc.filter.csproj",
       "packagesPath": "C:\\Users\\conanl\\.nuget\\packages\\",
       "outputPath": "E:\\github\\dotnet-core-Example\\WebApplication11\\obj\\",
       "projectStyle": "PackageReference",
