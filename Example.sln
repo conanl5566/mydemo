@@ -155,10 +155,31 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication27", "WebApplication27\WebApplication27.csproj", "{04836B48-8D50-4DB4-A834-FCB5B3720660}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "redis", "redis", "{F1011305-2C7C-46CD-9ACA-D2DD5E9CD4DD}"
+	ProjectSection(SolutionItems) = preProject
+		Exceptionless.Net\README.md = Exceptionless.Net\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rabbitmq", "rabbitmq", "{149059C0-3F10-44DD-95B9-9867B56223AE}"
+	ProjectSection(SolutionItems) = preProject
+		Exceptionless.Net\README.md = Exceptionless.Net\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据库", "数据库", "{E8F8DEA9-5987-49C1-9507-7BA172B4023A}"
+	ProjectSection(SolutionItems) = preProject
+		Exceptionless.Net\README.md = Exceptionless.Net\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "设计模式1", "设计模式1", "{19941B7C-F078-47B2-A645-6970706B7B82}"
+	ProjectSection(SolutionItems) = preProject
+		Exceptionless.Net\README.md = Exceptionless.Net\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "网关1", "网关1", "{A48456ED-DDCF-4AE6-B118-27E7B0EEBA69}"
+	ProjectSection(SolutionItems) = preProject
+		Exceptionless.Net\README.md = Exceptionless.Net\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "微服务1", "微服务1", "{7F5FCC84-118A-43EE-BFB3-C7D540A73C25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
