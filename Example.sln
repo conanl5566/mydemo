@@ -152,7 +152,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiClient", "WebApplication
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "ConsoleApp7\test.csproj", "{1C5CC774-34EF-4ED3-A82F-2CA7D46D9845}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication27", "WebApplication27\WebApplication27.csproj", "{04836B48-8D50-4DB4-A834-FCB5B3720660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication27", "WebApplication27\WebApplication27.csproj", "{04836B48-8D50-4DB4-A834-FCB5B3720660}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "redis", "redis", "{F1011305-2C7C-46CD-9ACA-D2DD5E9CD4DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rabbitmq", "rabbitmq", "{149059C0-3F10-44DD-95B9-9867B56223AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "数据库", "数据库", "{E8F8DEA9-5987-49C1-9507-7BA172B4023A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
