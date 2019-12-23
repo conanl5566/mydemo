@@ -43,11 +43,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hangfire", "hangfire", "{3B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestService", "TestService\TestService.csproj", "{DA3340DE-E9E0-4580-B257-2BB6D87672C2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{731FC7E4-A3F2-4985-878B-2D757125CC5D}"
-	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptionless.NLog.Demo", "WebApplicationnlog\Exceptionless.NLog.Demo.csproj", "{4A8FB884-205C-43D1-8470-D812B7584946}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web.HealthCheck.demo", "WebApplicationHealthCheck\web.HealthCheck.demo.csproj", "{DC3E44A2-67FE-4431-BF26-2F78F5A3D9A7}"
@@ -89,11 +84,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "id4认证", "id4认证", "{FE3BFA4E-12F3-4E06-9E7E-A2A29FE36CE3}"
 	ProjectSection(SolutionItems) = preProject
 		hangfiretest\README.md = hangfiretest\README.md
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{058902F4-1E13-4E28-A976-0672F8031060}"
-	ProjectSection(SolutionItems) = preProject
-		Exceptionless.Net\README.md = Exceptionless.Net\README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hangfire.abp.demo", "WebApplication15 - 副本\hangfire.abp.demo.csproj", "{B68846ED-52D4-4F61-AA5F-CE9BED5C499D}"
