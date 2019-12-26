@@ -167,6 +167,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "文档", "文档", "{3E4E8B
 		..\..\BaiduNetdiskDownload\新产品框架.pptx = ..\..\BaiduNetdiskDownload\新产品框架.pptx
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EasyCaching", "EasyCaching", "{6FF2D8C8-C017-47C8-A81F-704D33176D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCachingtest", "EasyCachingtest\EasyCachingtest.csproj", "{8DE98313-D65F-4EA6-88A1-27C5EFC3D5A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -269,6 +273,10 @@ Global
 		{04836B48-8D50-4DB4-A834-FCB5B3720660}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04836B48-8D50-4DB4-A834-FCB5B3720660}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04836B48-8D50-4DB4-A834-FCB5B3720660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE98313-D65F-4EA6-88A1-27C5EFC3D5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE98313-D65F-4EA6-88A1-27C5EFC3D5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE98313-D65F-4EA6-88A1-27C5EFC3D5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE98313-D65F-4EA6-88A1-27C5EFC3D5A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -299,6 +307,7 @@ Global
 		{1C5CC774-34EF-4ED3-A82F-2CA7D46D9845} = {FE3BFA4E-12F3-4E06-9E7E-A2A29FE36CE3}
 		{04836B48-8D50-4DB4-A834-FCB5B3720660} = {FE3BFA4E-12F3-4E06-9E7E-A2A29FE36CE3}
 		{3E4E8BD8-0CBF-4CDF-8A55-CA879AF32427} = {004BFA3F-D817-44DD-8EB5-C084949033E7}
+		{8DE98313-D65F-4EA6-88A1-27C5EFC3D5A1} = {6FF2D8C8-C017-47C8-A81F-704D33176D3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D38A9259-956E-4952-967E-3B6B7D9A3F1C}
