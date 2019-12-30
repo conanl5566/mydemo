@@ -1,7 +1,7 @@
-﻿using System;
-using System.Threading.Tasks;
-using DotNetCore.CAP;
+﻿using DotNetCore.CAP;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
 
 namespace Sample.RabbitMQ.MySql.Controllers
 {
@@ -25,7 +25,6 @@ namespace Sample.RabbitMQ.MySql.Controllers
             return Ok();
         }
 
-      
         [HttpGet, Route("ef")]
         public IActionResult EntityFrameworkWithTransaction()
         {

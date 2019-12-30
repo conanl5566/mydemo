@@ -1,8 +1,8 @@
 ﻿namespace BrokenApi.Controllers
 {
-    using System.Threading.Tasks;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Logging;
+    using System.Threading.Tasks;
 
     [ApiController]
     public class ValuesController : ControllerBase
@@ -16,7 +16,7 @@
         {
             this.logger.LogDebug("X-Correlation-ID: {0}", this.Request.Headers["X-Correlation-ID"]);
             this.logger.LogDebug("User-Agent: {0}", this.Request.Headers["User-Agent"]);
-          //  await Task.Delay(1000);
+            //  await Task.Delay(1000);
             return new StatusCodeResult(500);
         }
 
@@ -25,14 +25,13 @@
         {
             this.logger.LogDebug("X-Correlation-ID: {0}", this.Request.Headers["X-Correlation-ID"]);
             this.logger.LogDebug("User-Agent: {0}", this.Request.Headers["User-Agent"]);
-           // await Task.Delay(7000);
+            // await Task.Delay(7000);
             // var r= new StatusCodeResult(200);
             JsonResult json = new JsonResult(new { IsSucceeded = true, Message = s.RequestId });
             //r.ExecuteResultAsync(json);
             json.StatusCode = 200;
             return json;
         }
-
 
         ////[HttpPost("/status-working")]
         ////public async Task<IActionResult> GetWorking([FromBody]ss s)
@@ -46,13 +45,10 @@
         ////    json.StatusCode = 200;
         ////    return json;
         ////}
-
-
     }
 
     public class ss
     {
         public string RequestId { get; set; }
-
     }
 }

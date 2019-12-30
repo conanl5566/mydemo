@@ -1,4 +1,3 @@
-using System;
 using Hangfire;
 using Hangfire.Dashboard;
 using Hangfire.Dashboard.BasicAuthorization;
@@ -6,6 +5,7 @@ using Hangfire.Redis;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 using Volo.Abp;
 using WebApplication15.RecurringJobs;
 
@@ -25,7 +25,7 @@ namespace WebApplication15
                 var connectionString = Configuration["Hangfire:Redis:ConnectionString"];
                 x.UseRedisStorage(connectionString, new RedisStorageOptions()
                 {
-                    //活动服务器超时时间 
+                    //活动服务器超时时间
                     InvisibilityTimeout = TimeSpan.FromMinutes(60),
                     Db = int.Parse(Configuration["Hangfire:Redis:Db"])
                 });
@@ -42,7 +42,6 @@ namespace WebApplication15
                           .UseDashboardMetric(DashboardMetrics.FailedCountOrNull)
                     .UseDashboardMetric(DashboardMetrics.DeletedCount);
             });
-
         }
 
         public void Configure(IApplicationBuilder app, IConfiguration Configuration)
@@ -79,7 +78,6 @@ namespace WebApplication15
                 SchedulePollingInterval = TimeSpan.FromSeconds(1), //计划轮询间隔  支持任务到秒
             };
             app.UseHangfireServer(jobOptions);
-
         }
     }
 }

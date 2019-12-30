@@ -1,12 +1,12 @@
 ﻿namespace HttpClientSample.Framework
 {
-    using System;
+    using HttpClientSample.Options;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Options;
     using Polly;
     using Polly.Extensions.Http;
-    using HttpClientSample.Options;
+    using System;
 
     public static class ServiceCollectionExtensions
     {

@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
 using System.Diagnostics;
-using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using WebApplicationnlog.Models;
 
 namespace WebApplicationnlog.Controllers
@@ -21,12 +19,12 @@ namespace WebApplicationnlog.Controllers
             _logger.LogDebug(1, "NLog injected into HomeController");
         }
 
-        public async Task<IActionResult>  Index()
+        public async Task<IActionResult> Index()
         {
             _logger.LogInformation("Hello, this is the index!");
-            _logger.LogError(exception: new Exception("test"),message:"");
+            _logger.LogError(exception: new Exception("test"), message: "");
             var client = new HttpClient();
-            await  client.GetStringAsync("https://www.cnblogs.com/");
+            await client.GetStringAsync("https://www.cnblogs.com/");
 
             return View();
         }

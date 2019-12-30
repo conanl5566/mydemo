@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace WebApplication11
 {
-    public class SecurityService :ISecurityService
+    public class SecurityService : ISecurityService
     {
         public async Task<List<string>> test()
         {

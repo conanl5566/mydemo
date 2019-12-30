@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
@@ -12,18 +9,15 @@ namespace WebApplication13
     {
         protected void Application_Start()
         {
-
             //https://www.cnblogs.com/liquanchun/archive/2012/12/21/2827724.html
             //https://jasonwatmore.com/post/2014/03/14/aspnet-web-api-elmahaxd-404-error-no-http-resource-was-found-that-matches-the-request-uri-http-elmah-axd
             // ASP.NET Web API - elmah.axd 404 error - No HTTP resource was found that matches the request URI 'http://.../elmah.axd'
-
 
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
-
 
         ///// <summary>
         ///// 排除 Elmah 404 寄信通知
@@ -37,11 +31,10 @@ namespace WebApplication13
         //    }
         //}
 
-
         /// <summary>
         /// 自定 Elmah 發信主旨
         /// </summary>
-        void ErrorMail_Mailing(object sender, Elmah.ErrorMailEventArgs e)
+        private void ErrorMail_Mailing(object sender, Elmah.ErrorMailEventArgs e)
         {
             string machineName = "none server";
             try
@@ -66,6 +59,5 @@ namespace WebApplication13
 
             e.Mail.Subject = emailSubject;
         }
-
     }
 }

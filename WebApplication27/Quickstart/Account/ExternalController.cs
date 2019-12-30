@@ -66,7 +66,7 @@ namespace IdentityServer
             }
             else
             {
-                // start challenge and roundtrip the return URL and scheme 
+                // start challenge and roundtrip the return URL and scheme
                 var props = new AuthenticationProperties
                 {
                     RedirectUri = Url.Action(nameof(Callback)),

@@ -3,9 +3,7 @@ using Hangfire.Server;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using TestService;
@@ -18,6 +16,7 @@ namespace hangfiretest.RecurringJobs
         private readonly IRecurringJobManager _recurringJobs;
         private readonly ILogger<RecurringJobScheduler> _logger;
         public Itest _test { get; set; }
+
         public RecurringJobsService(
             [NotNull] IBackgroundJobClient backgroundJobs,
             [NotNull] IRecurringJobManager recurringJobs,

@@ -1,13 +1,13 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
 using WebApplication11.Models;
 
 namespace WebApplication11.Controllers
@@ -18,7 +18,7 @@ namespace WebApplication11.Controllers
         [AllowAnonymous]
         public IActionResult Index()
         {
-           // Convert.ToInt32("a");
+            // Convert.ToInt32("a");
             return View();
         }
 
@@ -30,6 +30,7 @@ namespace WebApplication11.Controllers
             var b = a;
             return View();
         }
+
         public IActionResult OnGet()
         {
             if (HttpContext.User.Identity.IsAuthenticated)
@@ -44,11 +45,6 @@ namespace WebApplication11.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return Content("退出");
         }
-
-
-
-
-
 
         /// <summary>
         /// 登录
@@ -70,7 +66,6 @@ namespace WebApplication11.Controllers
             {
                 IsPersistent = true,
                 ExpiresUtc = DateTime.UtcNow.AddMinutes(20)
-
             };
 
             await HttpContext.SignInAsync(
@@ -81,12 +76,12 @@ namespace WebApplication11.Controllers
             return Content("登录完成");
         }
 
-
         [AllowAnonymous]
         public IActionResult login()
         {
             return Content("需要登录");
         }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

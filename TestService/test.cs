@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace TestService
 {
@@ -12,7 +10,7 @@ namespace TestService
         }
     }
 
-    public interface Itest: IDependency
+    public interface Itest : IDependency
     {
         void demo();
     }

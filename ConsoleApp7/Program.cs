@@ -5,11 +5,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp7
 {
-    class Program
+    internal class Program
     {
-        static async System.Threading.Tasks.Task Main(string[] args)
+        private static async System.Threading.Tasks.Task Main(string[] args)
         {
-
             var response = await RequestTokenAsync();
             var r = response.AccessToken;
 
@@ -22,8 +21,7 @@ namespace ConsoleApp7
             Console.ReadKey();
         }
 
-
-        static async Task<TokenResponse> RequestTokenAsync()
+        private static async Task<TokenResponse> RequestTokenAsync()
         {
             var client = new HttpClient();
 

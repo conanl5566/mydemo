@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 using System.Collections.Generic;
@@ -9,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace WebApplication11
 {
-
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, Inherited = true, AllowMultiple = true)]
     public class TestFilterAttribute : TypeFilterAttribute
     {
@@ -22,6 +20,7 @@ namespace WebApplication11
         {
             private readonly ISecurityService _securityService;
             private readonly string _permissionCode;
+
             public TestFilterFilter(string permissionCode, ISecurityService securityService)
             {
                 _securityService = securityService;
@@ -47,8 +46,6 @@ namespace WebApplication11
                     await next();
                 }
             }
-
-
         }
     }
 }

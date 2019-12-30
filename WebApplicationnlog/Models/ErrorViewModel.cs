@@ -1,5 +1,3 @@
-using System;
-
 namespace WebApplicationnlog.Models
 {
     public class ErrorViewModel

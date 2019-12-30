@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using EasyCaching.Core.Configurations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,7 +22,6 @@ namespace EasyCachingtest
             //configuration
             services.AddEasyCaching(options =>
             {
-              
                 //use redis cache
                 options.UseRedis(
                     config =>
@@ -35,10 +30,8 @@ namespace EasyCachingtest
                     config.DBConfig.Password = "123456";
                     config.DBConfig.Endpoints.Add(new ServerEndPoint("localhost", 6379));
                 });
-
-
             }
-            
+
             );
 
             services.AddControllersWithViews();
@@ -55,8 +48,6 @@ namespace EasyCachingtest
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
-         
 
             app.UseStaticFiles();
 

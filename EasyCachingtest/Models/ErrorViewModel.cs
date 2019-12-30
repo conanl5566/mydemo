@@ -1,5 +1,3 @@
-using System;
-
 namespace EasyCachingtest.Models
 {
     public class ErrorViewModel

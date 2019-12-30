@@ -1,7 +1,7 @@
 ﻿namespace HttpClientSample.Clients
 {
-    using System.Threading.Tasks;
     using HttpClientSample.Models;
+    using System.Threading.Tasks;
 
     public interface IRocketClient
     {

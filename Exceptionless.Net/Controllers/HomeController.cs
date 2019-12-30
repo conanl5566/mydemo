@@ -1,20 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Exceptionless.Net.Models;
 using Microsoft.AspNetCore.Mvc;
-using Exceptionless.Net.Models;
-using Exceptionless.Models;
-using Microsoft.AspNetCore.Hosting;
-using log4net;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Diagnostics;
 
 namespace Exceptionless.Net.Controllers
 {
     public class HomeController : Controller
     {
-
         ////private ILog log;
 
         ////public HomeController(IHostingEnvironment hostingEnv)
@@ -22,18 +15,18 @@ namespace Exceptionless.Net.Controllers
         ////    this.log = LogManager.GetLogger(Startup.repository.Name, typeof(HomeController));
         ////}
 
-
         private ILogger<HomeController> logger;
+
         public HomeController(ILogger<HomeController> _logger)
         {
             logger = _logger;
         }
-        // GET api/val
 
+        // GET api/val
 
         public IActionResult Index()
         {
-            logger.LogError(new Exception("ExceptionDemo 的异常"),"qqqqqqqq");
+            logger.LogError(new Exception("ExceptionDemo 的异常"), "qqqqqqqq");
             return View();
         }
 

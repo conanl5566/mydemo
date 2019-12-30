@@ -1,9 +1,6 @@
 ﻿using IdentityServer4.Models;
 using IdentityServer4.Test;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace WebApplication25
 {
@@ -12,7 +9,6 @@ namespace WebApplication25
     /// </summary>
     public class Config
     {
-
         public static List<TestUser> GetTestUsers()
         {
             return new List<TestUser>
@@ -25,7 +21,6 @@ namespace WebApplication25
                 }
             };
         }
-
 
         //定义要保护的资源（webapi）
         public static IEnumerable<ApiResource> GetApiResources()
@@ -41,6 +36,7 @@ namespace WebApplication25
                 }
             };
         }
+
         //定义可以访问该API的客户端
         public static IEnumerable<Client> GetClients()
         {
@@ -64,7 +60,6 @@ namespace WebApplication25
                     ClientSecrets= {new Secret("secret".Sha256()) },
                     AllowedScopes= { "a" }
                 }
-
             };
         }
     }

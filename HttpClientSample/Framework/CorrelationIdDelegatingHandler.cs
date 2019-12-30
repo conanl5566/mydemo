@@ -1,10 +1,10 @@
 ﻿namespace HttpClientSample.Framework
 {
+    using CorrelationId;
+    using Microsoft.Extensions.Options;
     using System.Net.Http;
     using System.Threading;
     using System.Threading.Tasks;
-    using CorrelationId;
-    using Microsoft.Extensions.Options;
 
     public class CorrelationIdDelegatingHandler : DelegatingHandler
     {

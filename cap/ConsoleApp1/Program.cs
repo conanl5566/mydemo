@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var factory = new ConnectionFactory();
             factory.HostName = "localhost";//RabbitMQ服务在本地运行

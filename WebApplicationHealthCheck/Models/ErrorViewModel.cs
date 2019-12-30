@@ -1,5 +1,3 @@
-using System;
-
 namespace WebApplicationHealthCheck.Models
 {
     public class ErrorViewModel

@@ -1,12 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace WebApplication1
 {
-
     public class Person
     {
         public int Id { get; set; }
@@ -14,12 +9,11 @@ namespace WebApplication1
         public string Name { get; set; }
     }
 
-
     public class AppDbContext : DbContext
     {
         //  public const string ConnectionString = "Data Source=.;uid=sa;pwd=P@ssw0rd;database=test;";
 
-           public DbSet<Person> Persons { get; set; }
+        public DbSet<Person> Persons { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -30,6 +24,5 @@ namespace WebApplication1
         //  : base(options)
         //{
         //}
-
     }
 }

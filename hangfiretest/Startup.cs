@@ -1,27 +1,17 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Reflection;
-using System.Threading;
-using System.Threading.Tasks;
 using Autofac;
-using Autofac.Extensions.DependencyInjection;
 using Hangfire;
-using Hangfire.Autofac;
 using Hangfire.Dashboard;
 using Hangfire.Dashboard.BasicAuthorization;
 using Hangfire.Redis;
-using Hangfire.Server;
 using hangfiretest.RecurringJobs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using System;
+using System.Linq;
 using TestService;
 
 namespace hangfiretest
@@ -45,7 +35,6 @@ namespace hangfiretest
             builder.RegisterAssemblyTypes(typeof(Program).Assembly)
                 .Where(t => controllerBaseType.IsAssignableFrom(t) && t != controllerBaseType)
                 .PropertiesAutowired();
-
         }
 
         public IConfiguration Configuration { get; }
@@ -61,7 +50,7 @@ namespace hangfiretest
                 var connectionString = Configuration["Hangfire:Redis:ConnectionString"];
                 x.UseRedisStorage(connectionString, new RedisStorageOptions()
                 {
-                    //活动服务器超时时间 
+                    //活动服务器超时时间
                     InvisibilityTimeout = TimeSpan.FromMinutes(60),
                     Db = int.Parse(Configuration["Hangfire:Redis:Db"])
                 });

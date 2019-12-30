@@ -1,14 +1,14 @@
 ﻿namespace HttpClientSample
 {
     using CorrelationId;
+    using HttpClientSample.Clients;
+    using HttpClientSample.Framework;
+    using HttpClientSample.Options;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
-    using HttpClientSample.Clients;
-    using HttpClientSample.Framework;
-    using HttpClientSample.Options;
 
     public class Startup
     {

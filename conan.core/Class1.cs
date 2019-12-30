@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace conan.core
+﻿namespace conan.core
 {
     public class Class1
     {

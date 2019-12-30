@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace WebApplication1
 {
@@ -30,7 +27,6 @@ namespace WebApplication1
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<AppDbContext>();
 
@@ -38,7 +34,7 @@ namespace WebApplication1
             {
                 x.UseEntityFramework<AppDbContext>();
                 //  x.UseSqlServer("Server=127.0.0.1;Database=DNCDB_Order;Uid=sa;Password=P@ssw0rd"); // SQL Server
-               // x.UseRabbitMQ("host=127.0.0.1:5672;virtualHost=/;username=guest;password=guest");
+                // x.UseRabbitMQ("host=127.0.0.1:5672;virtualHost=/;username=guest;password=guest");
 
                 x.UseRabbitMQ(cfg =>
                 {
@@ -49,8 +45,6 @@ namespace WebApplication1
                     cfg.Password = "guest";
                 }); // RabbitMQ
 
-
-
                 x.UseDashboard();
                 x.FailedRetryCount = 5;
                 x.FailedThresholdCallback = (type, name, content) =>
@@ -58,7 +52,6 @@ namespace WebApplication1
                     Console.WriteLine($@"A message of type {type} failed after executing {x.FailedRetryCount} several times, requiring manual troubleshooting. Message name: {name}, message body: {content}");
                 };
             });
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -82,7 +75,6 @@ namespace WebApplication1
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
-           
         }
     }
 }

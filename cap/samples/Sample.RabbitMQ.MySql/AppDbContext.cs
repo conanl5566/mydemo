@@ -11,7 +11,7 @@ namespace Sample.RabbitMQ.MySql
 
     public class AppDbContext : DbContext
     {
-      //  public const string ConnectionString = "Server=.;Database=netcore;Uid=sa;Password=P@ssw0rd;";
+        //  public const string ConnectionString = "Server=.;Database=netcore;Uid=sa;Password=P@ssw0rd;";
 
         public DbSet<Person> Persons { get; set; }
 

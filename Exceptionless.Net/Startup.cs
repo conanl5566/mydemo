@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using log4net;
-using log4net.Config;
-using log4net.Repository;
+﻿using log4net.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -40,7 +33,6 @@ namespace Exceptionless.Net
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -49,9 +41,6 @@ namespace Exceptionless.Net
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
 
         {
-
-
-
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -69,8 +58,6 @@ namespace Exceptionless.Net
             //引入Nlog配置文件
             env.ConfigureNLog("nlog.config");
 
-
-
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -80,14 +67,10 @@ namespace Exceptionless.Net
 
             ExceptionlessClient.Default.Configuration.ApiKey = Configuration.GetSection("Exceptionless:ApiKey").Value;
 
-
             // ExceptionlessClient.Default.Configuration.ServerUrl = Configuration.GetSection("Exceptionless:ServerUrl").Value;
             app.UseExceptionless();
-
         }
 
-
         public static ILoggerRepository repository { get; set; }
-
     }
 }

@@ -1,10 +1,10 @@
 ﻿namespace HttpClientSample.Controllers
 {
-    using System;
-    using System.Threading.Tasks;
     using HttpClientSample.Clients;
     using HttpClientSample.Models;
     using Microsoft.AspNetCore.Mvc;
+    using System;
+    using System.Threading.Tasks;
 
     [Route("[controller]")]
     [ApiController]

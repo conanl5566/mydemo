@@ -1,9 +1,6 @@
 ﻿using Hangfire.States;
 using Hangfire.Storage;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace hangfiretest
 {
@@ -13,6 +10,7 @@ namespace hangfiretest
     public class SucceededStateExpireHandler : IStateHandler
     {
         public TimeSpan JobExpirationTimeout;
+
         public SucceededStateExpireHandler(int jobExpirationTimeout)
         {
             JobExpirationTimeout = TimeSpan.FromMinutes(jobExpirationTimeout);
@@ -27,7 +25,6 @@ namespace hangfiretest
 
         public void Unapply(ApplyStateContext context, IWriteOnlyTransaction transaction)
         {
-
         }
     }
 }

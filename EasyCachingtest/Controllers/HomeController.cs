@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using EasyCaching.Core;
+using EasyCachingtest.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using EasyCachingtest.Models;
-using EasyCaching.Core;
+using System;
+using System.Diagnostics;
 
 namespace EasyCachingtest.Controllers
 {
@@ -14,6 +11,7 @@ namespace EasyCachingtest.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IEasyCachingProviderFactory _factory;
+
         public HomeController(IEasyCachingProviderFactory factory)
         {
             this._factory = factory;
@@ -21,11 +19,9 @@ namespace EasyCachingtest.Controllers
 
         public IActionResult Index()
         {
-
             var provider = _factory.GetCachingProvider(EasyCachingConstValue.DefaultRedisName);
             var val = Guid.NewGuid().ToString();
-            var res = provider.Get("named-provider", () => { return val; } , TimeSpan.FromMinutes(1));
-
+            var res = provider.Get("named-provider", () => { return val; }, TimeSpan.FromMinutes(1));
 
             return View();
         }

@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using DotNetCore.CAP;
+﻿using DotNetCore.CAP;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Diagnostics;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-
         private readonly ICapPublisher _capBus;
 
         public HomeController(ICapPublisher capPublisher)
