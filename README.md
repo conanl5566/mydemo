@@ -1,25 +1,30 @@
-1¡¢¶¨Ê±ÈÎÎñ¡¢ÏûÏ¢×÷Òµ hangfire
+1ã€å®šæ—¶ä»»åŠ¡ã€æ¶ˆæ¯ä½œä¸š hangfire
 
 
-2¡¢·Ö²¼Ê½ÈÕÖ¾nlog½áºÏExceptionless
+2ã€åˆ†å¸ƒå¼æ—¥å¿—nlogç»“åˆExceptionless
 
 
-3¡¢Ó¦ÓÃ³ÌĞòÁ´Â·×·×Ù SkyWalking
+3ã€åº”ç”¨ç¨‹åºé“¾è·¯è¿½è¸ª SkyWalking
 
 
-4¡¢IdentityServer4 ÈÏÖ¤
+4ã€IdentityServer4 è®¤è¯
 
 
-5¡¢HttpClientfactory
+5ã€HttpClientfactory
 
 
-6¡¢ĞÂ°æ abp 
+6ã€æ–°ç‰ˆ abp 
 
 
-7¡¢DotNetCore
-     ¹ıÂËÆ÷
-     µÇÂ¼
-     ½¡¿µ¼ì²é
-     windows ·şÎñ
+7ã€DotNetCore
+
+     è¿‡æ»¤å™¨
+
+     ç™»å½•
+
+     å¥åº·æ£€æŸ¥
+
+     windows æœåŠ¡
+
 
     
