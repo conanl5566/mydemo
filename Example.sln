@@ -73,7 +73,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{B1D82AFD-A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "conan.core", "conan.core\conan.core.csproj", "{75891CA9-B271-4E75-8F58-5DEAB9FFAC44}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "id4", "id4", "{FE3BFA4E-12F3-4E06-9E7E-A2A29FE36CE3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer4", "IdentityServer4", "{FE3BFA4E-12F3-4E06-9E7E-A2A29FE36CE3}"
 	ProjectSection(SolutionItems) = preProject
 		hangfiretest\README.md = hangfiretest\README.md
 	EndProjectSection
