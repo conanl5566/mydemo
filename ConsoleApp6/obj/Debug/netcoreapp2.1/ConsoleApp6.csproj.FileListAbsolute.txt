@@ -1,3 +1,0 @@
-E:\github\dotnet-core-Example\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.csprojAssemblyReference.cache
-E:\github\dotnet-core-Example\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.AssemblyInfoInputs.cache
-E:\github\dotnet-core-Example\ConsoleApp6\obj\Debug\netcoreapp2.1\ConsoleApp6.AssemblyInfo.cs
