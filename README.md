@@ -14,6 +14,10 @@
 
 
 6、新版 abp 
+    
+     log
+
+     hangfire
 
 
 7、DotNetCore
