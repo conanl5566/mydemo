@@ -137,6 +137,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abphangfireJob", "新建文件夹\abphangfireJob.csproj", "{3F8A1B8D-1F2D-4698-A6CC-10587EA7FF8E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abpexceptionless", "新建文件夹 (2)\abpexceptionless.csproj", "{9E6F611B-68D4-491C-9DCC-98662DC515C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +229,10 @@ Global
 		{3F8A1B8D-1F2D-4698-A6CC-10587EA7FF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F8A1B8D-1F2D-4698-A6CC-10587EA7FF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F8A1B8D-1F2D-4698-A6CC-10587EA7FF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6F611B-68D4-491C-9DCC-98662DC515C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6F611B-68D4-491C-9DCC-98662DC515C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6F611B-68D4-491C-9DCC-98662DC515C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6F611B-68D4-491C-9DCC-98662DC515C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -254,6 +260,7 @@ Global
 		{2022E920-BC62-4DBC-A368-9631C3C84989} = {FE3BFA4E-12F3-4E06-9E7E-A2A29FE36CE3}
 		{1C5CC774-34EF-4ED3-A82F-2CA7D46D9845} = {FE3BFA4E-12F3-4E06-9E7E-A2A29FE36CE3}
 		{3F8A1B8D-1F2D-4698-A6CC-10587EA7FF8E} = {004BFA3F-D817-44DD-8EB5-C084949033E7}
+		{9E6F611B-68D4-491C-9DCC-98662DC515C5} = {004BFA3F-D817-44DD-8EB5-C084949033E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D38A9259-956E-4952-967E-3B6B7D9A3F1C}
