@@ -1,8 +1,0 @@
-E:\github\dotnet-core-Example\TestService\bin\Debug\netstandard2.1\TestService.deps.json
-E:\github\dotnet-core-Example\TestService\bin\Debug\netstandard2.1\TestService.dll
-E:\github\dotnet-core-Example\TestService\bin\Debug\netstandard2.1\TestService.pdb
-E:\github\dotnet-core-Example\TestService\obj\Debug\netstandard2.1\TestService.csprojAssemblyReference.cache
-E:\github\dotnet-core-Example\TestService\obj\Debug\netstandard2.1\TestService.AssemblyInfoInputs.cache
-E:\github\dotnet-core-Example\TestService\obj\Debug\netstandard2.1\TestService.AssemblyInfo.cs
-E:\github\dotnet-core-Example\TestService\obj\Debug\netstandard2.1\TestService.dll
-E:\github\dotnet-core-Example\TestService\obj\Debug\netstandard2.1\TestService.pdb
