@@ -7,14 +7,14 @@
 
 
   <ItemGroup>
-    <PackageReference Include="Exceptionless.AspNetCore" Version="4.3.2027" />
-    <PackageReference Include="Exceptionless.Log4net" Version="4.3.2027" />
-    <PackageReference Include="Exceptionless.NLog" Version="4.3.2027" />
+    <PackageReference Include="Exceptionless.AspNetCore" Version="4.4.0" />
+    <PackageReference Include="Exceptionless.Log4net" Version="4.4.0" />
+    <PackageReference Include="Exceptionless.NLog" Version="4.4.0" />
     <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="NLog" Version="4.6.6" />
-    <PackageReference Include="NLog.Web.AspNetCore" Version="4.8.4" />
+    <PackageReference Include="NLog" Version="4.7.2" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.2" />
   </ItemGroup>
 
 </Project>
